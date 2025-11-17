@@ -26,10 +26,8 @@ export const alex = {
 
 export const App = () => (
   <div className="App">
-    <section className="Person">
-      <Person person={misha} />
-      <Person person={olya} />
-      <Person person={alex} />
-    </section>
+    <Person person={misha} />
+    <Person person={olya} />
+    <Person person={alex} />
   </div>
 );
